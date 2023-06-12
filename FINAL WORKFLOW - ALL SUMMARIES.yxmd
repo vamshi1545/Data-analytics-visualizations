@@ -1,0 +1,2844 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="4" y="1709" width="1077" height="237" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Time Analysis</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="102">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="29" y="1782" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>True</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>True</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>gd_tweets_2023_FULL.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="timestamp" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="team_name" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="time_period_of_the_game" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="brand_ad_name" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="keywords" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="edit_history_tweet_ids" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="conversation_id" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="reply_settings" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="created_at" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="possibly_sensitive" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="id" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="author_id" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="lang" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="referenced_tweets" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="text" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.urls" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.hashtags" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.mentions" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="edit_controls.edits_remaining" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="edit_controls.is_edit_eligible" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="edit_controls.editable_until" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="attachments.media_keys" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.retweet_count" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.reply_count" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.like_count" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.quote_count" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.impression_count" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="in_reply_to_user_id" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.annotations" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="name" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="username" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="location" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="keyword" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="geo.place_id" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.cashtags" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="attachments.poll_ids" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="geo.coordinates.type" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="geo.coordinates.coordinates" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.copyright" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.country_codes_x" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.country_codes_y" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.country_codes" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.scope" size="254" source="File: C:\Users\u1425320\Downloads\gd_tweets_2023_FULL.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="103">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="126" y="1782" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="created_at" selected="True" />
+                <SelectField field="text" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="104">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="209" y="1782" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsNull([created_at]) and !IsNull([text])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([created_at]) and !IsNull([text])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="105">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="306" y="1770" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>created_at</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>
+              </RootName>
+              <Delimeters value="T" />
+              <NumFields value="2" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="106">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="390" y="1770" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="1" selected="True" rename="Date" />
+                <SelectField field="2" selected="True" rename="Time" type="Time" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="107">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="558" y="1770" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="datetimeadd([date and time],-7,&quot;hours&quot;)" field="date and time" size="19" type="DateTime" />
+                <FormulaField expression="Left([date and time], 10)" field="Date 2" size="1073741823" type="V_WString" />
+                <FormulaField expression="Right([date and time],8)" field="Time 2" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>date and time = datetimeadd([date and time],-7,"hours")
+Date 2 = Left([date and ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="108">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="474" y="1770" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[date] +&quot; &quot;+ [Time]" field="date and time" size="19" type="DateTime" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[date and time = [date] +" "+ [Time]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="109">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="630" y="1770" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Date 2</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-02-21 19:07:22</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>2023-02-12</Operand>
+                  <StartDate>2023-02-21 19:07:22</StartDate>
+                  <EndDate>2023-02-21 19:07:22</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Date 2] = "2023-02-12"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="110">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="714" y="1758" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="created_at" selected="False" />
+                <SelectField field="Date" selected="False" />
+                <SelectField field="Time" selected="False" />
+                <SelectField field="Date 2" selected="True" type="Date" size="10" />
+                <SelectField field="Time 2" selected="True" type="Time" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="111">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="786" y="1758" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeAdd([date and time],-DateTimeSeconds([date and time]),&quot;seconds&quot;)" field="Time" size="8" type="Time" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Time = DateTimeAdd([date and time],-DateTimeSeconds([date and time]),"seconds")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="112">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="870" y="1758" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Time" action="GroupBy" rename="Time" />
+                <SummarizeField field="text" action="CountDistinctNonNull" rename="CountDistinctNonNull_text" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="113">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="954" y="1758" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Time" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Time - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="99">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="0" y="279" width="1830" height="1118" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Public Metrics</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="25" y="642" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>True</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>True</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>gd_tweets_2023_FULL.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="timestamp" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="team_name" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="time_period_of_the_game" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="brand_ad_name" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="keywords" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="edit_history_tweet_ids" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="conversation_id" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="reply_settings" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="created_at" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="possibly_sensitive" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="id" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="author_id" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="lang" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="referenced_tweets" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="text" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.urls" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.hashtags" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.mentions" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="edit_controls.edits_remaining" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="edit_controls.is_edit_eligible" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="edit_controls.editable_until" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="attachments.media_keys" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.retweet_count" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.reply_count" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.like_count" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.quote_count" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.impression_count" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="in_reply_to_user_id" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.annotations" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="name" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="username" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="location" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="keyword" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="geo.place_id" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.cashtags" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="attachments.poll_ids" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="geo.coordinates.type" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="geo.coordinates.coordinates" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.copyright" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.country_codes_x" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.country_codes_y" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.country_codes" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.scope" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1146" y="582" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Brand_Ad_Name" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Brand_Ad_Name" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Brand_Ad_Name" selected="False" rename="Right_Brand_Ad_Name" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1170" y="1014" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Brand_Ad_Name" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Brand_Ad_Name" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Brand_Ad_Name" selected="False" rename="Right_Brand_Ad_Name" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1445" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Brand_Ad_Name" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Brand_Ad_Name" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Brand_Ad_Name" selected="False" rename="Right_Brand_Ad_Name" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1542" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Re-Tweets_Count] + [Reply_Count] + [Like_Count]" field="Engagement" size="8" type="Int64" />
+                <FormulaField expression="[Engagement]/ [Impression_Count]" field="Engagement_Rate" size="8" type="Int64" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Engagement = [Re-Tweets_Count] + [Reply_Count] + [Like_Count]
+Engagement_Rate = ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1637" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Engagement_Rate" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Engagement_Rate - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="1169" y="378" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>10</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>First 10 rows</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="74">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="1038" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>10</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>First 10 rows</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="1050" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>10</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>First 10 rows</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="1062" y="1230" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>10</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>First 10 rows</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="77">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1746" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Re-Tweets_Count" selected="False" />
+                <SelectField field="Reply_Count" selected="False" />
+                <SelectField field="Like_Count" selected="False" />
+                <SelectField field="Impression_Count" selected="False" />
+                <SelectField field="Engagement" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="197" y="328" width="799" height="240" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Re-Tweet_Count</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="22">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="413" y="377" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="[public_metrics.retweet_count]" field="Engagement" size="8" type="Int64" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText><![CDATA[Engagement = [public_metrics.retweet_count]
+]]></DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="23">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="497" y="378" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="time_period_of_the_game" action="GroupBy" rename="time_period_of_the_game" />
+                    <SummarizeField field="brand_ad_name" action="GroupBy" rename="brand_ad_name" />
+                    <SummarizeField field="Engagement" action="Sum" rename="Engagement" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="24">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+                <Position x="569" y="378" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <GroupFields>
+                    <Field field="brand_ad_name" />
+                  </GroupFields>
+                  <HeaderField field="time_period_of_the_game" />
+                  <DataField field="Engagement" />
+                  <Methods>
+                    <Method method="Sum" />
+                  </Methods>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="brand_ad_name" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                    <Field name="After_Game" source="CrossTab:Header:time_period_of_the_game:After Game:Sum:" type="Int64" />
+                    <Field name="Half_Time" source="CrossTab:Header:time_period_of_the_game:Half Time:Sum:" type="Int64" />
+                    <Field name="Pre_Game" source="CrossTab:Header:time_period_of_the_game:Pre Game:Sum:" type="Int64" />
+                    <Field name="Quarter_1" source="CrossTab:Header:time_period_of_the_game:Quarter 1:Sum:" type="Int64" />
+                    <Field name="Quarter_2" source="CrossTab:Header:time_period_of_the_game:Quarter 2:Sum:" type="Int64" />
+                    <Field name="Quarter_3" source="CrossTab:Header:time_period_of_the_game:Quarter 3:Sum:" type="Int64" />
+                    <Field name="Quarter_4" source="CrossTab:Header:time_period_of_the_game:Quarter 4:Sum:" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+            </Node>
+            <Node ToolID="25">
+              <GuiSettings>
+                <Position x="641" y="378" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="Check Box (135)">False</Value>
+                  <Value name="Check Box (136)">False</Value>
+                  <Value name="List Box (11)">"brand_ad_name","After_Game","Half_Time","Pre_Game","Quarter_1","Quarter_2","Quarter_3","Quarter_4"</Value>
+                  <Value name="Check Box (84)">True</Value>
+                  <Value name="Check Box (117)">True</Value>
+                  <Value name="Check Box (15)">True</Value>
+                  <Value name="Check Box (109)">False</Value>
+                  <Value name="Check Box (122)">False</Value>
+                  <Value name="Check Box (53)">False</Value>
+                  <Value name="Check Box (58)">False</Value>
+                  <Value name="Check Box (70)">False</Value>
+                  <Value name="Check Box (77)">False</Value>
+                  <Value name="Drop Down (81)">upper</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Cleanse.yxmc" />
+            </Node>
+            <Node ToolID="26">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="713" y="378" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="[Pre_Game]+[Quarter_1]+[Quarter_2]+[Half_Time]+[Quarter_3]+[Quarter_4]+[After_Game]" field="Total" size="8" type="Int64" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Total = [Pre_Game]+[Quarter_1]+[Quarter_2]+[Half_Time]+[Quarter_3]+[Quarter_4]+[...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="27">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="785" y="378" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="brand_ad_name" selected="True" rename="Brand_Ad_Name" />
+                    <SelectField field="Pre_Game" selected="False" />
+                    <SelectField field="Quarter_1" selected="False" />
+                    <SelectField field="Quarter_2" selected="False" />
+                    <SelectField field="Half_Time" selected="False" />
+                    <SelectField field="Quarter_3" selected="False" />
+                    <SelectField field="Quarter_4" selected="False" />
+                    <SelectField field="After_Game" selected="False" />
+                    <SelectField field="Total" selected="True" rename="Re-Tweets_Count" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="29">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="305" y="390" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>!IsNull([text]) and !IsNull([brand_ad_name]) and !IsNull([keywords]) and !IsNull([created_at])</Expression>
+                  <Mode>Custom</Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>!IsNull([text]) and !IsNull([brand_ad_name]) and !IsNull([keywords]) and !IsNull...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="30">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="222" y="390" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="time_period_of_the_game" selected="True" />
+                    <SelectField field="brand_ad_name" selected="True" />
+                    <SelectField field="keywords" selected="True" />
+                    <SelectField field="created_at" selected="True" type="Date" size="10" />
+                    <SelectField field="text" selected="True" />
+                    <SelectField field="public_metrics.retweet_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.reply_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.like_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.quote_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.impression_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="35">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="869" y="378" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="1033">
+                    <Field field="Re-Tweets_Count" order="Descending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Re-Tweets_Count - Descending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="197" y="581" width="793" height="240" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Reply_Count</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="36">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="414" y="630" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="[public_metrics.reply_count]" field="Engagement" size="8" type="Int64" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText><![CDATA[Engagement = [public_metrics.reply_count]
+]]></DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="37">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="498" y="630" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="time_period_of_the_game" action="GroupBy" rename="time_period_of_the_game" />
+                    <SummarizeField field="brand_ad_name" action="GroupBy" rename="brand_ad_name" />
+                    <SummarizeField field="Engagement" action="Sum" rename="Engagement" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="38">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+                <Position x="570" y="630" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <GroupFields>
+                    <Field field="brand_ad_name" />
+                  </GroupFields>
+                  <HeaderField field="time_period_of_the_game" />
+                  <DataField field="Engagement" />
+                  <Methods>
+                    <Method method="Sum" />
+                  </Methods>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="brand_ad_name" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                    <Field name="After_Game" source="CrossTab:Header:time_period_of_the_game:After Game:Sum:" type="Int64" />
+                    <Field name="Half_Time" source="CrossTab:Header:time_period_of_the_game:Half Time:Sum:" type="Int64" />
+                    <Field name="Pre_Game" source="CrossTab:Header:time_period_of_the_game:Pre Game:Sum:" type="Int64" />
+                    <Field name="Quarter_1" source="CrossTab:Header:time_period_of_the_game:Quarter 1:Sum:" type="Int64" />
+                    <Field name="Quarter_2" source="CrossTab:Header:time_period_of_the_game:Quarter 2:Sum:" type="Int64" />
+                    <Field name="Quarter_3" source="CrossTab:Header:time_period_of_the_game:Quarter 3:Sum:" type="Int64" />
+                    <Field name="Quarter_4" source="CrossTab:Header:time_period_of_the_game:Quarter 4:Sum:" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+            </Node>
+            <Node ToolID="39">
+              <GuiSettings>
+                <Position x="642" y="630" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="Check Box (135)">False</Value>
+                  <Value name="Check Box (136)">False</Value>
+                  <Value name="List Box (11)">"brand_ad_name","After_Game","Half_Time","Pre_Game","Quarter_1","Quarter_2","Quarter_3","Quarter_4"</Value>
+                  <Value name="Check Box (84)">True</Value>
+                  <Value name="Check Box (117)">True</Value>
+                  <Value name="Check Box (15)">True</Value>
+                  <Value name="Check Box (109)">False</Value>
+                  <Value name="Check Box (122)">False</Value>
+                  <Value name="Check Box (53)">False</Value>
+                  <Value name="Check Box (58)">False</Value>
+                  <Value name="Check Box (70)">False</Value>
+                  <Value name="Check Box (77)">False</Value>
+                  <Value name="Drop Down (81)">upper</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Cleanse.yxmc" />
+            </Node>
+            <Node ToolID="40">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="714" y="630" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="[Pre_Game]+[Quarter_1]+[Quarter_2]+[Half_Time]+[Quarter_3]+[Quarter_4]+[After_Game]" field="Total" size="8" type="Int64" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Total = [Pre_Game]+[Quarter_1]+[Quarter_2]+[Half_Time]+[Quarter_3]+[Quarter_4]+[...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="41">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="786" y="630" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="brand_ad_name" selected="True" rename="Brand_Ad_Name" />
+                    <SelectField field="Pre_Game" selected="False" />
+                    <SelectField field="Quarter_1" selected="False" />
+                    <SelectField field="Quarter_2" selected="False" />
+                    <SelectField field="Half_Time" selected="False" />
+                    <SelectField field="Quarter_3" selected="False" />
+                    <SelectField field="Quarter_4" selected="False" />
+                    <SelectField field="After_Game" selected="False" />
+                    <SelectField field="Total" selected="True" rename="Reply_Count" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="42">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="306" y="642" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>!IsNull([text]) and !IsNull([brand_ad_name]) and !IsNull([keywords]) and !IsNull([created_at])</Expression>
+                  <Mode>Custom</Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>!IsNull([text]) and !IsNull([brand_ad_name]) and !IsNull([keywords]) and !IsNull...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="43">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="222" y="641" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="time_period_of_the_game" selected="True" />
+                    <SelectField field="brand_ad_name" selected="True" />
+                    <SelectField field="keywords" selected="True" />
+                    <SelectField field="created_at" selected="True" type="Date" size="10" />
+                    <SelectField field="text" selected="True" />
+                    <SelectField field="public_metrics.retweet_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.reply_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.like_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.quote_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.impression_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="44">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="882" y="630" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="1033">
+                    <Field field="Reply_Count" order="Descending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Reply_Count - Descending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="197" y="845" width="773" height="240" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Like_Count</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="47">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="414" y="894" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="[public_metrics.like_count]" field="Engagement" size="8" type="Int64" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText><![CDATA[Engagement = [public_metrics.like_count]
+]]></DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="48">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="498" y="894" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="time_period_of_the_game" action="GroupBy" rename="time_period_of_the_game" />
+                    <SummarizeField field="brand_ad_name" action="GroupBy" rename="brand_ad_name" />
+                    <SummarizeField field="Engagement" action="Sum" rename="Engagement" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="49">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+                <Position x="570" y="894" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <GroupFields>
+                    <Field field="brand_ad_name" />
+                  </GroupFields>
+                  <HeaderField field="time_period_of_the_game" />
+                  <DataField field="Engagement" />
+                  <Methods>
+                    <Method method="Sum" />
+                  </Methods>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="brand_ad_name" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                    <Field name="After_Game" source="CrossTab:Header:time_period_of_the_game:After Game:Sum:" type="Int64" />
+                    <Field name="Half_Time" source="CrossTab:Header:time_period_of_the_game:Half Time:Sum:" type="Int64" />
+                    <Field name="Pre_Game" source="CrossTab:Header:time_period_of_the_game:Pre Game:Sum:" type="Int64" />
+                    <Field name="Quarter_1" source="CrossTab:Header:time_period_of_the_game:Quarter 1:Sum:" type="Int64" />
+                    <Field name="Quarter_2" source="CrossTab:Header:time_period_of_the_game:Quarter 2:Sum:" type="Int64" />
+                    <Field name="Quarter_3" source="CrossTab:Header:time_period_of_the_game:Quarter 3:Sum:" type="Int64" />
+                    <Field name="Quarter_4" source="CrossTab:Header:time_period_of_the_game:Quarter 4:Sum:" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+            </Node>
+            <Node ToolID="50">
+              <GuiSettings>
+                <Position x="642" y="894" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="Check Box (135)">False</Value>
+                  <Value name="Check Box (136)">False</Value>
+                  <Value name="List Box (11)">"brand_ad_name","After_Game","Half_Time","Pre_Game","Quarter_1","Quarter_2","Quarter_3","Quarter_4"</Value>
+                  <Value name="Check Box (84)">True</Value>
+                  <Value name="Check Box (117)">True</Value>
+                  <Value name="Check Box (15)">True</Value>
+                  <Value name="Check Box (109)">False</Value>
+                  <Value name="Check Box (122)">False</Value>
+                  <Value name="Check Box (53)">False</Value>
+                  <Value name="Check Box (58)">False</Value>
+                  <Value name="Check Box (70)">False</Value>
+                  <Value name="Check Box (77)">False</Value>
+                  <Value name="Drop Down (81)">upper</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Cleanse.yxmc" />
+            </Node>
+            <Node ToolID="51">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="714" y="894" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="[Pre_Game]+[Quarter_1]+[Quarter_2]+[Half_Time]+[Quarter_3]+[Quarter_4]+[After_Game]" field="Total" size="8" type="Int64" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Total = [Pre_Game]+[Quarter_1]+[Quarter_2]+[Half_Time]+[Quarter_3]+[Quarter_4]+[...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="52">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="786" y="894" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="brand_ad_name" selected="True" rename="Brand_Ad_Name" />
+                    <SelectField field="Pre_Game" selected="False" />
+                    <SelectField field="Quarter_1" selected="False" />
+                    <SelectField field="Quarter_2" selected="False" />
+                    <SelectField field="Half_Time" selected="False" />
+                    <SelectField field="Quarter_3" selected="False" />
+                    <SelectField field="Quarter_4" selected="False" />
+                    <SelectField field="After_Game" selected="False" />
+                    <SelectField field="Total" selected="True" rename="Like_Count" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="53">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="306" y="906" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>!IsNull([text]) and !IsNull([brand_ad_name]) and !IsNull([keywords]) and !IsNull([created_at])</Expression>
+                  <Mode>Custom</Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>!IsNull([text]) and !IsNull([brand_ad_name]) and !IsNull([keywords]) and !IsNull...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="54">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="222" y="906" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="time_period_of_the_game" selected="True" />
+                    <SelectField field="brand_ad_name" selected="True" />
+                    <SelectField field="keywords" selected="True" />
+                    <SelectField field="created_at" selected="True" type="Date" size="10" />
+                    <SelectField field="text" selected="True" />
+                    <SelectField field="public_metrics.retweet_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.reply_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.like_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.quote_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.impression_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="55">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="870" y="894" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="1033">
+                    <Field field="Like_Count" order="Descending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Like_Count - Descending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="197" y="1133" width="803" height="240" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Impression_Count</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="57">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="414" y="1182" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="[public_metrics.impression_count]" field="Engagement" size="8" type="Int64" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText><![CDATA[Engagement = [public_metrics.impression_count]
+]]></DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="58">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="486" y="1182" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="time_period_of_the_game" action="GroupBy" rename="time_period_of_the_game" />
+                    <SummarizeField field="brand_ad_name" action="GroupBy" rename="brand_ad_name" />
+                    <SummarizeField field="Engagement" action="Sum" rename="Engagement" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="59">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+                <Position x="558" y="1182" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <GroupFields>
+                    <Field field="brand_ad_name" />
+                  </GroupFields>
+                  <HeaderField field="time_period_of_the_game" />
+                  <DataField field="Engagement" />
+                  <Methods>
+                    <Method method="Sum" />
+                  </Methods>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="brand_ad_name" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                    <Field name="After_Game" source="CrossTab:Header:time_period_of_the_game:After Game:Sum:" type="Int64" />
+                    <Field name="Half_Time" source="CrossTab:Header:time_period_of_the_game:Half Time:Sum:" type="Int64" />
+                    <Field name="Pre_Game" source="CrossTab:Header:time_period_of_the_game:Pre Game:Sum:" type="Int64" />
+                    <Field name="Quarter_1" source="CrossTab:Header:time_period_of_the_game:Quarter 1:Sum:" type="Int64" />
+                    <Field name="Quarter_2" source="CrossTab:Header:time_period_of_the_game:Quarter 2:Sum:" type="Int64" />
+                    <Field name="Quarter_3" source="CrossTab:Header:time_period_of_the_game:Quarter 3:Sum:" type="Int64" />
+                    <Field name="Quarter_4" source="CrossTab:Header:time_period_of_the_game:Quarter 4:Sum:" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+            </Node>
+            <Node ToolID="60">
+              <GuiSettings>
+                <Position x="630" y="1182" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="Check Box (135)">False</Value>
+                  <Value name="Check Box (136)">False</Value>
+                  <Value name="List Box (11)">"brand_ad_name","After_Game","Half_Time","Pre_Game","Quarter_1","Quarter_2","Quarter_3","Quarter_4"</Value>
+                  <Value name="Check Box (84)">True</Value>
+                  <Value name="Check Box (117)">True</Value>
+                  <Value name="Check Box (15)">True</Value>
+                  <Value name="Check Box (109)">False</Value>
+                  <Value name="Check Box (122)">False</Value>
+                  <Value name="Check Box (53)">False</Value>
+                  <Value name="Check Box (58)">False</Value>
+                  <Value name="Check Box (70)">False</Value>
+                  <Value name="Check Box (77)">False</Value>
+                  <Value name="Drop Down (81)">upper</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Cleanse.yxmc" />
+            </Node>
+            <Node ToolID="61">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="702" y="1182" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="[Pre_Game]+[Quarter_1]+[Quarter_2]+[Half_Time]+[Quarter_3]+[Quarter_4]+[After_Game]" field="Total" size="8" type="Int64" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Total = [Pre_Game]+[Quarter_1]+[Quarter_2]+[Half_Time]+[Quarter_3]+[Quarter_4]+[...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="62">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="774" y="1182" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="brand_ad_name" selected="True" rename="Brand_Ad_Name" />
+                    <SelectField field="Pre_Game" selected="False" />
+                    <SelectField field="Quarter_1" selected="False" />
+                    <SelectField field="Quarter_2" selected="False" />
+                    <SelectField field="Half_Time" selected="False" />
+                    <SelectField field="Quarter_3" selected="False" />
+                    <SelectField field="Quarter_4" selected="False" />
+                    <SelectField field="After_Game" selected="False" />
+                    <SelectField field="Total" selected="True" rename="Impression_Count" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="63">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="294" y="1194" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>!IsNull([text]) and !IsNull([brand_ad_name]) and !IsNull([keywords]) and !IsNull([created_at])</Expression>
+                  <Mode>Custom</Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>!IsNull([text]) and !IsNull([brand_ad_name]) and !IsNull([keywords]) and !IsNull...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="64">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="222" y="1194" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="time_period_of_the_game" selected="True" />
+                    <SelectField field="brand_ad_name" selected="True" />
+                    <SelectField field="keywords" selected="True" />
+                    <SelectField field="created_at" selected="True" type="Date" size="10" />
+                    <SelectField field="text" selected="True" />
+                    <SelectField field="public_metrics.retweet_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.reply_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.like_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.quote_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="public_metrics.impression_count" selected="True" type="Int64" size="8" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="65">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="870" y="1182" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="1033">
+                    <Field field="Impression_Count" order="Descending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Impression_Count - Descending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="101">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1638" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Engagement" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Engagement - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="5" y="1409" width="847" height="276" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Tweet_Counts</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="78">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="30" y="1458" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Vamsi\Downloads\gdac_2023_keywords_COUNTS.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>gdac_2023_keywords_COUNTS.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="end" size="254" source="File: C:\Users\Vamsi\Downloads\gdac_2023_keywords_COUNTS.csv" type="V_String" />
+                <Field name="start" size="254" source="File: C:\Users\Vamsi\Downloads\gdac_2023_keywords_COUNTS.csv" type="V_String" />
+                <Field name="tweet_count" size="254" source="File: C:\Users\Vamsi\Downloads\gdac_2023_keywords_COUNTS.csv" type="V_String" />
+                <Field name="keyword" size="254" source="File: C:\Users\Vamsi\Downloads\gdac_2023_keywords_COUNTS.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="79">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="30" y="1554" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Vamsi\Documents\Game Day Analytics\Analysis SB\Keywords List FINAL.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Keywords List FINAL.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Time Period of the Game" size="255" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\Analysis SB\Keywords List FINAL.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Brand - Ad name" size="255" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\Analysis SB\Keywords List FINAL.xlsx|||`Sheet1$`" type="V_WString" />
+                <Field name="Keyword" size="255" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\Analysis SB\Keywords List FINAL.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="80">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="210" y="1554" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Brand - Ad name" action="GroupBy" rename="Brand - Ad name" />
+                <SummarizeField field="Keyword" action="GroupBy" rename="Keyword" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="81">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="126" y="1554" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="LowerCase([Keyword])" field="Keyword" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Keyword = LowerCase([Keyword])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="294" y="1470" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="keyword" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Keyword" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Keyword" selected="False" rename="Right_Keyword" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="83">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="378" y="1470" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Brand - Ad name" selected="True" />
+                <SelectField field="start" selected="True" />
+                <SelectField field="end" selected="True" />
+                <SelectField field="tweet_count" selected="True" />
+                <SelectField field="keyword" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="462" y="1470" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Brand - Ad name" action="GroupBy" rename="Brand - Ad name" />
+                <SummarizeField field="start" action="GroupBy" rename="start" />
+                <SummarizeField field="tweet_count" action="GroupBy" rename="tweet_count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="558" y="1470" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="start" order="Ascending" />
+                <Field field="tweet_count" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>start - Ascending
+tweet_count - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="91">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="642" y="1470" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="start" action="GroupBy" rename="start" />
+                <SummarizeField field="Brand - Ad name" action="First" rename="First_Brand - Ad name" />
+                <SummarizeField field="tweet_count" action="First" rename="First_tweet_count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="92">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="726" y="1470" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="start" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>start - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="4" y="5" width="1597" height="253" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Tweet_Count_Per_Hashtag</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="126" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="timestamp" selected="True" />
+                <SelectField field="time_period_of_the_game" selected="True" />
+                <SelectField field="brand_ad_name" selected="True" />
+                <SelectField field="keywords" selected="True" />
+                <SelectField field="entities.hashtags" selected="True" />
+                <SelectField field="public_metrics.retweet_count" selected="True" />
+                <SelectField field="public_metrics.reply_count" selected="True" />
+                <SelectField field="public_metrics.like_count" selected="True" />
+                <SelectField field="public_metrics.quote_count" selected="True" />
+                <SelectField field="public_metrics.impression_count" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="210" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Left([timestamp], 9)" field="Date" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Date = Left([timestamp], 9)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="294" y="65" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>entities.hashtags</Field>
+              <Delimeters value=":" />
+              <NumFields value="1" />
+              <Flags value="8" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="378" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>entities.hashtags</Field>
+              <Delimeters value="}" />
+              <NumFields value="1" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="461" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>entities.hashtags</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-02-18 20:53:41</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2023-02-18 20:53:41</StartDate>
+                  <EndDate>2023-02-18 20:53:41</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([entities.hashtags])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="461" y="173" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="4" />
+              <Fields>
+                <Field name="String" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>{'start'</c>
+                </r>
+                <r>
+                  <c>'end'</c>
+                </r>
+                <r>
+                  <c>'tag'</c>
+                </r>
+                <r>
+                  <c>]</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="546" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>entities.hashtags</FieldFind>
+              <FieldSearch>String</FieldSearch>
+              <ReplaceFoundField>String</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="True" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Append</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields>
+                <Field field="String" />
+              </ReplaceAppendFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="618" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNull</Operator>
+                <Field>String</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-02-18 20:58:39</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2023-02-18 20:58:39</StartDate>
+                  <EndDate>2023-02-18 20:58:39</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IsNull([String])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="702" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="String" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="774" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>entities.hashtags</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>entities.hashtags</RootName>
+              <Delimeters value="'" />
+              <NumFields value="3" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="846" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="brand_ad_name" selected="True" rename="Brand-Ad Name" />
+                <SelectField field="entities.hashtags" selected="False" />
+                <SelectField field="entities.hashtags1" selected="False" />
+                <SelectField field="entities.hashtags2" selected="True" rename="Hashtag" />
+                <SelectField field="entities.hashtags3" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="29" y="65" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>True</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>True</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>gd_tweets_2023_FULL.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="timestamp" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="team_name" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="time_period_of_the_game" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="brand_ad_name" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="keywords" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="edit_history_tweet_ids" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="conversation_id" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="reply_settings" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="created_at" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="possibly_sensitive" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="id" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="author_id" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="lang" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="referenced_tweets" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="text" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.urls" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.hashtags" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.mentions" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="edit_controls.edits_remaining" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="edit_controls.is_edit_eligible" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="edit_controls.editable_until" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="attachments.media_keys" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.retweet_count" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.reply_count" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.like_count" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.quote_count" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="public_metrics.impression_count" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="in_reply_to_user_id" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.annotations" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="name" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="username" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="location" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="keyword" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="geo.place_id" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="entities.cashtags" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="attachments.poll_ids" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="geo.coordinates.type" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="geo.coordinates.coordinates" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.copyright" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.country_codes_x" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.country_codes_y" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.country_codes" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+                <Field name="withheld.scope" size="254" source="File: C:\Users\Vamsi\Documents\Game Day Analytics\2023 Data\gd_tweets_2023_FULL.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="942" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Brand-Ad Name" action="GroupBy" rename="Brand-Ad Name" />
+                <SummarizeField field="time_period_of_the_game" action="GroupBy" rename="time_period_of_the_game" />
+                <SummarizeField field="Hashtag" action="GroupBy" rename="Hashtag" />
+                <SummarizeField field="Hashtag" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="1134" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="Brand-Ad Name" />
+                <Field field="Hashtag" />
+              </GroupFields>
+              <HeaderField field="time_period_of_the_game" />
+              <DataField field="Count" />
+              <Methods>
+                <Method method="Sum" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Brand-Ad Name" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field description="TextToColumns: Parsed from entities.hashtags" name="Hashtag" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="After_Game" source="CrossTab:Header:time_period_of_the_game:After Game:Sum:" type="Int64" />
+                <Field name="Half_Time" source="CrossTab:Header:time_period_of_the_game:Half Time:Sum:" type="Int64" />
+                <Field name="Pre_Game" source="CrossTab:Header:time_period_of_the_game:Pre Game:Sum:" type="Int64" />
+                <Field name="Quarter_1" source="CrossTab:Header:time_period_of_the_game:Quarter 1:Sum:" type="Int64" />
+                <Field name="Quarter_2" source="CrossTab:Header:time_period_of_the_game:Quarter 2:Sum:" type="Int64" />
+                <Field name="Quarter_3" source="CrossTab:Header:time_period_of_the_game:Quarter 3:Sum:" type="Int64" />
+                <Field name="Quarter_4" source="CrossTab:Header:time_period_of_the_game:Quarter 4:Sum:" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1038" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsNull([Brand-Ad Name]) and !IsNull([Hashtag])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Brand-Ad Name]) and !IsNull([Hashtag])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1218" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Brand-Ad Name" selected="True" />
+                <SelectField field="Hashtag" selected="True" />
+                <SelectField field="Pre_Game" selected="True" />
+                <SelectField field="Quarter_1" selected="True" />
+                <SelectField field="Quarter_2" selected="True" />
+                <SelectField field="Half_Time" selected="True" />
+                <SelectField field="Quarter_3" selected="True" />
+                <SelectField field="Quarter_4" selected="True" />
+                <SelectField field="After_Game" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings>
+            <Position x="1290" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Brand-Ad Name","Hashtag","Pre_Game","Quarter_1","Quarter_2","Half_Time","Quarter_3","Quarter_4","After_Game"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1362" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Pre_Game]+[Quarter_1]+[Quarter_2]+[Half_Time]+[Quarter_3]+[Quarter_4]+[After_Game]" field="Total" size="8" type="Int64" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Total = [Pre_Game]+[Quarter_1]+[Quarter_2]+[Half_Time]+[Quarter_3]+[Quarter_4]+[...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1446" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Total" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Total - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1518" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Pre_Game" selected="False" />
+                <SelectField field="Quarter_1" selected="False" />
+                <SelectField field="Quarter_2" selected="False" />
+                <SelectField field="Half_Time" selected="False" />
+                <SelectField field="Quarter_3" selected="False" />
+                <SelectField field="Quarter_4" selected="False" />
+                <SelectField field="After_Game" selected="False" />
+                <SelectField field="Total" selected="True" rename="Count_of_Tweets" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="102" Connection="Output" />
+      <Destination ToolID="103" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="Output" />
+      <Destination ToolID="104" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="104" Connection="True" />
+      <Destination ToolID="105" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="105" Connection="Output" />
+      <Destination ToolID="106" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="106" Connection="Output" />
+      <Destination ToolID="108" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="108" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="109" Connection="True" />
+      <Destination ToolID="110" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="110" Connection="Output" />
+      <Destination ToolID="111" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="111" Connection="Output" />
+      <Destination ToolID="112" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="112" Connection="Output" />
+      <Destination ToolID="113" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Join" />
+      <Destination ToolID="70" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Join" />
+      <Destination ToolID="70" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Join" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="101" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output26" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="68" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="68" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output26" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="True" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output26" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="True" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="69" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="69" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output26" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="True" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="82" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="82" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Output" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="82" Connection="Join" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="Output" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Output" />
+      <Destination ToolID="92" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="7" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="True" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output26" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>FINAL WORKFLOW - ALL SUMMARIES</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1cf32111-95d2-4dfd-8dff-8f723de8cd7f" />
+      <Telemetry>
+        <PreviousWorkflowId value="cba323af-0525-4aab-873e-e6ce5722467f" />
+        <OriginWorkflowId value="cba323af-0525-4aab-873e-e6ce5722467f" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
